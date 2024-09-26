@@ -4,21 +4,21 @@
 */
 /* Adjust style for body */
 header  {
-    background-color: rgb(9, 9, 9);
-    color: purple;
+    background-color: rgb(75, 80, 90);
+    color: rgb(209, 225, 246);
     text-align: center;
     font-size: xx-large;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 header h1{
-    color:rgb(180, 21, 180)
+    color:rgb(176, 196, 222)
 }
 header nav{
     list-style: none;
     display: inline-block;
 }
 body {
-    background-color: crimson
+    background-color: rgb(209, 225, 246)
 }
 
 /* Adjust style for h1 */
@@ -39,11 +39,11 @@ list-style-type: square; /* Changes the bullets to squares */
 
 /* Adjust style of hover color */
 a:hover{
-    background-color: crimson; color: black;
+    background-color: rgb(216, 216, 216 ); color: black;
 }
 
 footer  {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(75, 80, 90);
     color: white;
     text-align: center;
     font-size: xx-large;
