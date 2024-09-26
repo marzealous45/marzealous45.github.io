@@ -1,0 +1,170 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="main.css">
+    <title>
+        We Make Games Reviews
+    </title>
+</head>
+<body>
+    <header>
+        <img src="images/gamerlogo.jpg" alt="company logo" height="500px" width="500px">
+        <h1>
+            Reviews 
+        </h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="products.html">
+                        Products
+                    </a>
+                </li>
+                <li>
+                    <a href="distribution.html">
+                        Distribution
+                    </a>
+                </li>
+                <li>
+                    <a href="reviews.html">
+                        Reviews
+                    </a>
+                <li>
+                    <a href="contact.html">
+                        Contact Us
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!--Beginning of the form element -->
+        <form action="/submit" method="post">
+            <!-- Label and text input field -->
+            <label for="name">
+                Name:
+            </label>
+            <input type="text" id="name" name="name" placeholder="Enter your Name">
+            <br>
+            <!-- Label and email input field-->
+            <label for="email">
+                Email:
+            </label>
+            <input type="email" id="email" name="email" placeholder="exmple@exmple.com">
+            <br>
+            <!-- Label and number input field -->
+             <label for="age">
+                Age:
+            </label>
+            <input type="number" name="age" id="age" min="1" max="100">
+            <br>
+            <!--Radio buttons for gender selection -->
+            <label for="male">
+                Male:
+            </label>
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="female">
+                Female:
+            </label>
+            <input type="radio" name="gender" id="female" value="female">
+            <br>
+            <!-- Dropdown select for game selection -->
+            <label for="game">
+                Select Game
+            </label>
+            <select name="game" id="game">
+                <!-- blank option-->
+                <option value="blank"> </option>
+
+                <option value="alanwake2">
+                    Alan Wake 2
+                </option>
+                <option value="mortalkombat">
+                    Mortal Kombat 1
+                </option>
+                <option value="helldivers">
+                    Helldivers 2
+                </option>
+            </select>
+            <br>
+            <!-- Dropdown select for rating selection-->
+            <label for="rating">
+                Rating
+            </label>
+            <select name="rating" id="Rating">
+                <!-- blank option-->
+                <option value="blank"> </option>
+
+                <option value="1 star">
+                    1&#9733;
+                </option>
+                <option value="2 star">
+                    2&#9733;
+                </option>
+                <option value="3 star">
+                   3&#9733;
+                </option>
+                <option value="4 star">
+                    4&#9733;
+                </option>
+                <option value="5 start">
+                    5&#9733;
+                </option>
+            </select>
+            <br>
+            <!-- Textarea for additional comments -->
+            <label for="comments">
+                comments
+            </label>
+            <textarea name="comments" id="comments" rows="4" cols="50">
+
+            </textarea>
+            <br>
+            <!-- -->
+            <label for="file">
+                Upload a photo
+            </label>
+            <input type="file" name="file" id="file">
+            <br>
+            <!-- -->
+            <input type="hidden" name="userId" id="userId" value="12345">
+            <br>
+            <label for="volume">
+                Volume:
+            </label>
+            <input type="range" name="volume" id="volume" min="0" max="10">
+            <!-- -->
+            <label for="birthdate">
+                Birth Date:
+            </label>
+            <input type="date" name="birthdate" id="birthdate">
+            <br>
+            <!-- -->
+            <label for="favcolor">
+                Favorite Color:
+            </label>
+            <input type="color" name="favcolor" id="favcolor">
+            <br>
+            <!-- -->
+            <input type="submit" value="submit">
+            <!-- -->
+            <input type="reset" value="reset">
+        </form>
+        <!-- End of the form element-->
+    </main>
+    <footer>
+        <p>
+            &copy; Copyright 2024 We Make Games <br>
+            GitHub: github.com/marzealous
+        </p>
+    </footer>
+</body>
+</html>
